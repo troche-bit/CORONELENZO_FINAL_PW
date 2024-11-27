@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="estilos/estilo_pagina2.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="welcomeMessage">¡Bienvenido a la Página Principal!</h1>
+        <p>Por favor, ingresa tu nombre para personalizar tu experiencia:</p>
+        <input type="text" id="userNameInput" placeholder="Tu nombre" />
+        <button id="submitName">Enviar</button>
+        <p id="personalizedMessage"></p>
+
+        <h2>Explora las demás páginas</h2>
+        <div class="button-container">
+            <button class="animated-button" onclick="location.href='pagina3.html'">Quieres interactuar con la pagina?</button>
+            <p>Aqui puedes interactuar con 3 API, una de ellas enviara un correo con minimos datos, luego podras ver imagenees generada aleatoriamente y por ultimo podras saber sobre el clima y temperatura actual de un lugar de tu preferencia.</p>
+            <button class="animated-button" onclick="location.href='pagina4.html'">Formulario</button>
+            <p>Aquí podras dar mas informacion sobre ti, como alumno de la academia.</p>
+            <button class="animated-button" onclick="location.href='pagina5.html'">Operaciones</button>
+            <p>Aquí podras realizar ciertas operaciones matematicas con datos ingresados por usted mismo.</p>
+            <button class="animated-button" onclick="location.href='index.html'">Cerrar Sesión</button>
+        </div>
+    </div>
+
+    <script src="scripts/script_pagina2.js"></script>
+</body>
+<footer>
+    <p>&copy; Derechos reservado por Enzo Coronel - Ñemby - 2024</p>
+</footer>
+</html>

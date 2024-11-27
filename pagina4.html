@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilos/estilo_pagina4.css">
+</head>
+<body>
+    <header>
+        <h1 align = "center">Datos del empleado</h1>
+    </header>
+    <div class="container">
+        <form id="personalForm">
+            <input type="text" id="name" placeholder="Nombre" required />
+            <input type="text" id="lastname" placeholder="Apellido" required />
+            <input type="real" id="calificacion" placeholder="Calificacion" required />
+            <textarea id="commentBox" placeholder="¿Que quieres lograr aquí?"></textarea>
+            <button type="submit" id="enviar">Enviar</button>
+            <button type="button" id="clearForm">Limpiar</button>
+        </form>
+        <p id="formMessage"></p>
+
+        <div class="button-container" align = "center">
+            <button class="animated-button" onclick="location.href='pagina2.html'">Inicio</button>
+            <button class="animated-button" onclick="location.href='pagina3.html'">Interacciones</button>
+            <button class="animated-button" onclick="location.href='pagina5.html'">Operaciones</button>
+            <button class="animated-button" onclick="location.href='index.html'">Cerrar Sesión</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="scripts/script_pagina4.js"></script>
+    <footer>
+        <p>&copy; Derechos reservado por Enzo Coronel - Ñemby - 2024</p>
+    </footer>
+</body>
+</html>
